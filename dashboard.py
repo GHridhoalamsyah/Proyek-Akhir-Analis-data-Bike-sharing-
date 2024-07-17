@@ -43,8 +43,7 @@ def create_byhour_df(df):
     return byhour_df
 
 
-
-all_df = pd.read_csv('data_utama1.csv')
+all_df = pd.read_csv('https://raw.githubusercontent.com/GHridhoalamsyah/Proyek-Akhir-Analis-data-Bike-sharing/main/data_utama1.csv')
 
 datetime_columns = ["dteday"]
 all_df.sort_values(by="dteday", inplace=True)
